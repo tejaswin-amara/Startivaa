@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════
+   STARTIVAA DESIGN SYSTEM — Tailwind v4 CSS-First
+   All tokens, utilities, and base styles defined here.
+   No tailwind.config.ts needed — this IS the config.
+   ═══════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* ── Color Palette ── */
+  --color-background: #0A0A14;
+  --color-violet-primary: #7C3AED;
+  --color-violet-secondary: #4F46E5;
+  --color-text-primary: #F5F5FF;
+  --color-text-muted: #9CA3C4;
+  --color-card: rgba(255, 255, 255, 0.04);
+
+  /* ── Typography ── */
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* ── Gradients ── */
+  --background-image-violet-gradient: linear-gradient(135deg, #7C3AED, #4F46E5);
+
+  /* ── Custom Animations ── */
+  --animate-fade-in: fade-in 0.3s ease-out forwards;
+  --animate-scale-up: scale-up 0.3s ease-out forwards;
+  --animate-shake: shake 0.5s ease-in-out;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+}
+
+/* ── Keyframe Definitions ── */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scale-up {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(124, 58, 237, 0.15); }
+  50% { box-shadow: 0 0 35px rgba(124, 58, 237, 0.35); }
+}
+
+/* ── Base Styles ── */
+
+body {
+  background-color: #0A0A14;
+  color: #F5F5FF;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(124, 58, 237, 0.3);
+  color: white;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0A0A14; }
+::-webkit-scrollbar-thumb { background: #7C3AED; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #8B5CF6; }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Utility Classes ── */
+
+@utility violet-gradient-text {
+  background: linear-gradient(135deg, #7C3AED, #4F46E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@utility glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: 16px;
+}
+
+@utility glow-violet {
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.3);
+}
+
+@utility eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #7C3AED;
+}
+
+@utility bg-violet-gradient {
+  background: linear-gradient(135deg, #7C3AED, #4F46E5);
+}
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}

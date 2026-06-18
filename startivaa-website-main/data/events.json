@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "GITEX Asia Singapore 2026",
+    "date": "Apr 9–10, 2026",
+    "location": "Marina Bay Sands, Singapore",
+    "country": "SG",
+    "category": "Conference",
+    "description": "Media Partner at Asia's Most Global Tech, Startup & Digital Investments Event.",
+    "link": "https://www.gitex.com/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806801/ef51zejluz43y930b4ev.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Capital Networking Virtual Conf",
+    "date": "April 24–25, 2025",
+    "location": "Online (US/EU/UK/CA & RoW)",
+    "country": "ONLINE",
+    "category": "Networking",
+    "description": "Amol Agrawal featured at the Capital Networking Virtual Conference for LPs, GPs & Startups.",
+    "link": "https://www.linkedin.com/posts/amoloagrawal_capitalnetworking-aiforgood-futureofwork-share-7320133697297371137-3p5l/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806812/qhbhjex0dubqjv1hf7bt.webp"
+  },
+  {
+    "id": "3",
+    "title": "AICO Dubai",
+    "date": "December 10–11, 2025",
+    "location": "Dubai, UAE",
+    "country": "AE",
+    "category": "Conference",
+    "description": "Speaker at AI Community Conference — Panel: AI in Healthcare.",
+    "link": "https://www.globalaishow.com/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806823/xznsd7v5phqa6kk17jre.webp"
+  },
+  {
+    "id": "4",
+    "title": "Jagriti Yatra",
+    "date": "2025",
+    "location": "India",
+    "country": "IN",
+    "category": "Workshop",
+    "description": "Part of India's iconic entrepreneurship journey.",
+    "link": "https://www.jagritiyatra.com/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806834/sn3jvogd7s5impddq7sm.webp"
+  },
+  {
+    "id": "5",
+    "title": "WEHub WE-Enable Mentorship",
+    "date": "2025",
+    "location": "Hyderabad, India",
+    "country": "IN",
+    "category": "Mentorship",
+    "description": "Mentor at WEHub Government of Telangana initiative.",
+    "link": "https://www.linkedin.com/posts/wehub-womenentrepreneurs-womensupportingwomen-ugcPost-7343592918923825153-ppJJ/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806847/rnt03oaxfqvcwtkspcfj.webp"
+  },
+  {
+    "id": "6",
+    "title": "NASA Space Apps Challenge",
+    "date": "October 4–5, 2025",
+    "location": "Hyderabad, India",
+    "country": "IN",
+    "category": "Award",
+    "description": "Recognised as Galactic Local Judge at the 2025 NASA International Space Apps Challenge.",
+    "link": "https://www.spaceappschallenge.org/",
+    "imageUrl": "https://res.cloudinary.com/duxvbt7bm/image/upload/v1779806855/wgpoosnmmylm9udhfzyl.webp"
+  }
+]

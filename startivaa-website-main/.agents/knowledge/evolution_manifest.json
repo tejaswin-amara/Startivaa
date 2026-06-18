@@ -1,0 +1,14 @@
+{
+  "DetectedTags": [
+    "next",
+    "react",
+    "@playwright/test",
+    "tailwindcss"
+  ],
+  "LocalFiles": 77,
+  "ProjectDomain": "Web",
+  "Version": "12.2.0-PRODUCTION",
+  "LastHarvest": "2026-05-30T10:20:02.3612765+05:30",
+  "GlobalSkills": 111,
+  "MatchedSkills": 4
+}
